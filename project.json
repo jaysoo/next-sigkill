@@ -5,6 +5,14 @@
   "projectType": "application",
   "tags": [],
   "targets": {
+    "next-build": {
+      "cache": true,
+      "outputs": [
+        "{workspaceRoot}/.next",
+        "{workspaceRoot}/.next/!(cache)"
+      ],
+      "command": "next build"
+    },
     "sigkill": {
       "executor": "nx:run-commands",
       "options": {
