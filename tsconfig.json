@@ -9,7 +9,10 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": ["es2020", "dom"],
+    "lib": [
+      "es2020",
+      "dom"
+    ],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
@@ -28,7 +31,10 @@
         "name": "next"
       }
     ],
-    "types": ["jest", "node"]
+    "types": [
+      "jest",
+      "node"
+    ]
   },
   "include": [
     "src/**/*.ts",
@@ -37,7 +43,8 @@
     "src/**/*.jsx",
     ".next/types/**/*.ts",
     "dist/foo/.next/types/**/*.ts",
-    "next-env.d.ts"
+    "next-env.d.ts",
+    "dist/.next/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",
